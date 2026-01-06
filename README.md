@@ -294,67 +294,6 @@ state = run_simulation(flags)
 - **black**: Code formatting
 - **flake8**: Linting and style checking
 
-## Contributing
-
-We welcome contributions! Please follow these guidelines:
-
-### Development Setup
-```bash
-# Fork and clone the repository
-git clone https://github.com/yourusername/ppm1d.git
-cd ppm1d
-
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install in development mode with dev dependencies
-pip install -e ".[dev]"
-```
-
-### Code Style
-- Follow PEP 8 style guidelines
-- Use type hints for function signatures
-- Write docstrings for all public functions
-- Use descriptive variable names
-
-### Testing
-```bash
-# Run the test suite
-pytest
-
-# Run with coverage
-pytest --cov=ppm1d --cov-report=html
-```
-
-### Pull Request Process
-1. Create a feature branch from `main`
-2. Make your changes with tests
-3. Ensure all tests pass
-4. Update documentation as needed
-5. Submit a pull request with a clear description
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Citation
-
-If you use PPM1D in your research, please cite:
-
-```
-@article{Woodward1984,
-  title={The Piecewise Parabolic Method (PPM) for gas-dynamical simulations},
-  author={Woodward, Paul and Colella, Phillip},
-  journal={Journal of Computational Physics},
-  volume={54},
-  number={1},
-  pages={115--173},
-  year={1984},
-  publisher={Elsevier}
-}
-```
-
 ## Acknowledgments
 
 ### Primary Acknowledgment
@@ -373,21 +312,7 @@ If you use PPM1D in your research, please cite:
   - Monotonicity constraints and high-order interface reconstruction
   - Shock flattening and contact discontinuity detection
 
-- **PPM1D Development Team**
-  - Python implementation and modular architecture
-  - Educational documentation and Jupyter notebooks
-  - Testing, validation, and performance optimization
-
-### Related Projects and Resources
-
-- **[PPMstar](http://www.lcse.umn.edu/PPMstar)**: The original 3D PPM hydrodynamics code by Prof. Paul Woodward
-- **[Athena++](https://github.com/PrincetonUniversity/athena)**: Modern astrophysical MHD code with PPM-based methods
-- **[FLASH](https://github.com/FLASHCenter/FLASH)**: Multi-physics simulation code incorporating PPM
-- **[LCSE at UMN](http://www.lcse.umn.edu/)**: Laboratory for Computational Science and Engineering
-
-### Important Note
-
-This is an educational and research code for 1D problems. For production astrophysics or 3D hydrodynamics simulations, please use **PPMstar**, FLASH, Athena++, or other established production codes. This implementation serves as a learning tool and testbed for understanding the PPM methodology as implemented in PPMstar.
+- **PPM1D Development - Praneet Pathak (University of Victoria, Canada) **
 
 ---
 
