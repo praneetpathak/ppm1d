@@ -22,7 +22,7 @@ This 1D code adopts the following core algorithms and design principles from PPM
 
 ### PPMstar References
 
-- **PPMstar Homepage**: [http://www.lcse.umn.edu/PPMstar](http://www.lcse.umn.edu/PPMstar)
+- **PPMstar Homepage**: [http://www.lcse.umn.edu](http://www.lcse.umn.edu)
 - **Original PPM Paper**: Colella, P., & Woodward, P. R. (1984). "The Piecewise Parabolic Method (PPM) for Gas-Dynamical Simulations", *Journal of Computational Physics*, 54(1), 174-201.
 - **Shock Simulation Paper**: Woodward, P. R., & Colella, P. (1984). "The Numerical Simulation of Two-Dimensional Fluid Flow with Strong Shocks", *Journal of Computational Physics*, 54(1), 115-173.
 
@@ -302,19 +302,6 @@ state = run_simulation(flags)
 
 ### Contributors
 
-- **Prof. Paul R. Woodward** (University of Minnesota, LCSE)
-  - Original PPM algorithm development and PPMstar implementation
-  - Characteristic tracing formulation and linearized acoustic Riemann solver
-  - Shock detection, flattening, and contact steepening algorithms
-
-- **Prof. Phillip Colella** (Lawrence Berkeley National Laboratory)
-  - Co-developer of the original PPM method
-  - Monotonicity constraints and high-order interface reconstruction
-  - Shock flattening and contact discontinuity detection
-
-- **PPM1D Development - Praneet Pathak (University of Victoria, Canada) **
+- **Praneet Pathak** (University of Victoria, Canada)
 
 ---
-
-**PPM1D** - Bringing the power of Prof. Paul R. Woodward's PPMstar methodology to 1D hydrodynamics research and education.</content>
-<parameter name="filePath">/home/ppathak/1d-hydro-code-ppm/ppm1d/README.md
