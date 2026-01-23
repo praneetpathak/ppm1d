@@ -1,7 +1,7 @@
 # PPM1D: 1D Piecewise Parabolic Method Hydrodynamics Solver
 
 [![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-GPL--v3-blue.svg)](LICENSE)
 
 A modular, high-performance Python implementation of the Piecewise Parabolic Method (PPM) for solving 1D compressible hydrodynamics problems. **This code is based on Prof. Paul R. Woodward's PPMstar 3D hydrodynamics code**, reimplemented in Python for educational purposes and 1D applications.
 
